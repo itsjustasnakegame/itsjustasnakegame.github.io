@@ -19,11 +19,6 @@ let food = {
     letter: letters.shift() // Toma la primera letra de la secuencia
 };
 
-const winImage = document.createElement("img");
-winImage.id = "winImage";
-winImage.src = "https://upload.wikimedia.org/wikipedia/commons/c/cc/El_Recreo_Shopping_Mall_in_Sabana_Grande.jpg"; // Reemplaza con la ruta de tu imagen
-document.body.appendChild(winImage);
-
 function drawGame() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
